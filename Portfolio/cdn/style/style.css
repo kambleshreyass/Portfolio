@@ -1,0 +1,442 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: #161513;
+  color: #c5c5c5;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/* NAV SECTION START HERE */
+.nav >img{
+  width: 50px;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #222;
+  height: 70px;
+  position: relative;
+}
+.nav-list a{
+  text-decoration: none;
+  padding: 10px;
+  color: #0082C6;
+  font-size: 1.1rem;
+}
+.nav-list i{
+  font-size: 40px;
+  color: #0082C6;
+  display: none;
+}
+/* THIS PART IS ABOUT CONTAINER IMAGE,PARAGRAPH OR SOME INFO ABOUT PERSONE */
+.avtar img{
+  width: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.avtar #element{
+  margin-top: 20px;
+}
+.avtar h1{
+  font-size: 35px;
+  text-align: center;
+  margin-top: 30px;
+  color: #fff;
+}
+.avtar h2{
+  font-size: 34px;
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+}
+.avtar span{
+  color: #0082C6;
+}
+.intro p{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+/* BUTTON SECTION IS STARTS HERE */
+.center-buttons{
+  text-align: center;
+  padding: 20px;
+}
+.center-buttons button{
+  margin: 20px;
+}
+.btn-one{
+  padding: 20px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color:#fff;
+  border-radius: 50px;
+  width: 195px;
+  height: 64px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #4b4b4b;
+  box-shadow: 1px 3px 10px #ffffff ;
+  border: none;
+}
+.btn-two{
+  padding: 20px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color:#161513;
+  border: 4px solid #0082C6;
+  border-radius: 50px;
+  width: 195px;
+  height: 64px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #0082C6;
+  box-shadow: 1px 0px 40px 0px #0082C6 ;
+}
+
+/* THIS SECTION IS ABOUT EXPERIENCE IN LANGUAGE */
+
+.container{
+  text-align: center;
+  font-size: 32px;
+  color: #fff;
+  position: relative;
+}
+.images{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 35px;
+  /* background-color: #0082C6; */
+  height: 80px;
+}
+.images .css{
+  width: 50px;
+}
+.images img{
+  width: 40px;
+}
+.images .js{
+  width: 45px;
+}
+.images .tailwindcss{
+  width: 50px;
+}
+.images .mongo{
+  width: 45px;
+}
+.images .node{
+  width: 65px;
+}
+.images .react{
+  width: 50px;
+}
+.images .git{
+  width: 55px;
+}
+.container{
+  color: #fff;
+  font-size: 19px;
+  margin-top: 25px;
+  background: -webkit-linear-gradient(#EC6129,#039BE5,#FFDA3E,#8AD846,#00CCFF,#DE4C36);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* PROJECT CONTAINE */
+
+.img-container img{
+  width: 230px;
+  margin-top: 20px;
+}
+.project-container h2{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 40px;
+  background: -webkit-linear-gradient(#2269FF,#C125FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.img-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.project-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.git-btn{
+  padding: 20px 30px;
+  border-radius: 50px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #000000;
+  box-shadow: 0px 0px 50px 0px #fff ;
+  overflow: hidden;
+  position: relative;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.git-btn:hover{
+  background-color: #2980b9;
+    transform: scale(1.1);
+}
+.git-btn::before{
+  content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: #297fb952;
+    opacity: 0;
+    transition: opacity 0.1s ease;
+}
+.git-btn:hover::before{
+  opacity: 1;
+}
+.google h2{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 33px;
+  color: #fff;
+}
+.google-certificate{
+  display: flex;
+  align-items: center;
+  justify-content:   center;
+  position: relative;
+}
+.google-certificate h3{
+  margin-top: 30px;
+  font-size: 24px;
+  color: #ffffff;
+}
+.google-certificate span{
+  margin-top: 50px;
+  font-size: 26px;
+  background: -webkit-linear-gradient(#DE5542,#327FF1,#1BA567);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.summary{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  
+}
+.summary p{
+  text-align: center;
+  padding: 25px;
+  font-size: 20px;
+}
+.certtificate-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.certtificate-btn button{
+  margin-top: 20px;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #fff;
+  color: #000000;
+}
+.coursera h3{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 24px;
+  color: #ffffff;
+}
+.coursera span{
+  font-size: 26px;
+  background: -webkit-linear-gradient(#DE5542,#f132e7,#1BA567);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.coursera-paragraph p{
+  text-align: center;
+  padding: 25px;
+  font-size: 20px;
+}
+.coursera-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.coursera-btn button{
+  margin-top: 20px;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #fff;
+  color: #000000;
+}
+.infosys-paragraph{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.infosys h3{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 24px;
+  color: #ffffff;
+}
+.infosys-paragraph p{
+  text-align: center;
+  padding: 25px;
+  font-size: 20px;
+}
+.infosys span{
+  font-size: 26px;
+  background: -webkit-linear-gradient(#DE5542,#a8f132,#1BA567);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.info-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info-btn button{
+  margin-top: 20px;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #fff;
+  color: #000000;
+}
+.education{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 24px;
+  color: #ffffff;
+  position: relative;
+}
+.education h3{
+  margin-top: 20px;
+  font-size: 25px;
+}
+.education img{
+  margin-top: 30px;
+  width: 250px;
+  border-radius: 20px;
+}
+.collage h4{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px;
+  color: #ffffff;
+}
+.collage p{
+  text-align:center;
+  font-size: 20px;
+  padding: 30px;
+  font-weight: 200;
+}
+.structure{
+  color: #EC6129;
+}
+.design{
+  color: #039BE5;
+}
+.dianamic{
+  color: #FFDA3E;
+}
+.js-librarys{
+  color:#8AD846 ;
+}
+.frontend-framework{
+  color: #00CCFF;
+}
+.dbms{
+  color:#8AD846 ;
+}
+.frontend-library{
+  color: #fff;
+}
+#footer{
+  height: 40%;
+  width: 100%;
+  background-color: #222222;
+  margin-top: 20px;
+  position: relative;
+}
+#footer h3{
+  text-align: center;
+  font-weight: 200;
+  color: #fff;
+}
+#footer h4{
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+  font-weight: 200;
+}
+#footer i{
+  font-size: 50px;
+}
+.footer-logo{
+  text-align: center;
+}
+.footer-logo img{
+  width: 100px;
+  margin-top: 25px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width:600px){
+  .nav-list a{
+    display: none;
+  }
+  .nav-list i{
+    font-size: 40px;
+    color: #0082C6;
+    display: block;
+  }
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+  }
+  .google-certificate h3{
+    padding: 20px;
+    text-align: center;
+  }
+  .coursera h3{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .infosys h3{
+    text-align: center;
+    margin-top: 40px;
+  }
+}
